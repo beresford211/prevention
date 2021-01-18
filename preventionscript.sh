@@ -7,7 +7,7 @@ ETC_HOSTS=/etc/hosts
 IP="127.0.0.1"
 
 # Declare an array of string with type
-declare -a HOSTNAMES=("tinder.com" "www.tinder.com" "www.facebook.com" "facebook.com" "www.fetlife.com" "fetlife.com" "reddit.com" "www.reddit.com" )
+declare -a HOSTNAMES=("tinder.com" "www.tinder.com" "www.facebook.com" "facebook.com" "reddit.com" "www.reddit.com" )
  
 # Iterate the string array using for loop
 removehost() {
